@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sample.project.find_a_hack.JoinProject">
+
+
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="66dp"
+        android:layout_height="73dp"
+        app:srcCompat="@android:drawable/ic_delete"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        app:srcCompat="@android:drawable/checkbox_on_background"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <EditText
+        android:id="@+id/editText19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Project Name"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <EditText
+        android:id="@+id/editText22"
+        android:layout_width="285dp"
+        android:layout_height="99dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="General Description"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <EditText
+        android:id="@+id/editText25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Programming Languages"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <EditText
+        android:id="@+id/editText26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="276dp"
+        tools:text="Category" />
+
+    <EditText
+        android:id="@+id/editText27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="336dp"
+        tools:text="Experience" />
+
+</android.support.constraint.ConstraintLayout>

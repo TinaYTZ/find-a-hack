@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sample.project.find_a_hack.CreateProject">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Create Project"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Project Description"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Requirements: "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="336dp"
+        android:layout_height="94dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteY="112dp"
+        tools:layout_editor_absoluteX="16dp"
+        android:imeOptions="actionNext"/>
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textImeMultiLine"
+        android:hint="Desired Programming Languages"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="257dp"
+        android:imeOptions="actionNext"/>
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="281dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="textShortMessage"
+        android:hint="Project Category"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="316dp"
+        android:imeOptions="actionNext"/>
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="287dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Desired Experience"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="373dp"
+        android:imeOptions="actionDone"/>
+
+</android.support.constraint.ConstraintLayout>

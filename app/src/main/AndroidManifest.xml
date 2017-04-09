@@ -15,6 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CreateProject" />
+        <activity android:name=".InterestedUsers" />
+        <activity android:name=".Match" />
+        <activity android:name=".JoinProject" />
+        <activity android:name=".PendingResponses"></activity>
     </application>
 
 </manifest>
